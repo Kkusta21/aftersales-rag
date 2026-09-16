@@ -1,0 +1,31 @@
+{"question": "Which engine oil grade does the Aster Hybrid take?", "expected": "aster_hybrid_service_manual::engine-oil"}
+{"question": "How many litres of oil for an Aster oil change with filter?", "expected": "aster_hybrid_service_manual::engine-oil"}
+{"question": "Should I change the oil more often if I only do short trips in my Aster?", "expected": "aster_hybrid_service_manual::engine-oil"}
+{"question": "Tyre pressure for Aster Hybrid on 18 inch wheels", "expected": "aster_hybrid_service_manual::tyre-pressure"}
+{"question": "How do I reset the TPMS after inflating tyres on the Aster?", "expected": "aster_hybrid_service_manual::tyre-pressure"}
+{"question": "Aster won't show READY and the dashboard is dim", "expected": "aster_hybrid_service_manual::12-v-battery"}
+{"question": "Where do I connect jump leads on the Aster Hybrid?", "expected": "aster_hybrid_service_manual::12-v-battery"}
+{"question": "Red hybrid system warning light came on in my Aster, what do I do?", "expected": "aster_hybrid_service_manual::hybrid-system-warning-light"}
+{"question": "Is it safe to keep driving the Aster with a yellow hybrid warning?", "expected": "aster_hybrid_service_manual::hybrid-system-warning-light"}
+{"question": "What brake fluid does the Aster use and when to replace it?", "expected": "aster_hybrid_service_manual::brake-fluid"}
+{"question": "Aster brake discs rusting because I rarely brake hard", "expected": "aster_hybrid_service_manual::brake-fluid"}
+{"question": "Aster Hybrid diagnostic code P0A80 meaning", "expected": "aster_hybrid_service_manual::error-code-p0a80"}
+{"question": "How fast can the Tern EV DC charge from 10 to 80 percent?", "expected": "tern_ev_service_manual::charging"}
+{"question": "How do I precondition the Tern battery before fast charging?", "expected": "tern_ev_service_manual::charging"}
+{"question": "Tern EV charge port light flashing red", "expected": "tern_ev_service_manual::charging-fault-charge-port-light-flashing-red"}
+{"question": "What does fault CHG-07 mean on the Tern?", "expected": "tern_ev_service_manual::charging-fault-charge-port-light-flashing-red"}
+{"question": "Correct tyre pressure for a Tern EV", "expected": "tern_ev_service_manual::tyre-pressure"}
+{"question": "How often should Tern EV tyres be rotated?", "expected": "tern_ev_service_manual::tyre-pressure"}
+{"question": "Where is the cabin air filter on the Tern and what part number?", "expected": "tern_ev_service_manual::cabin-air-filter"}
+{"question": "Can I top up the Tern battery cooling with normal engine coolant?", "expected": "tern_ev_service_manual::coolant-for-the-battery-thermal-system"}
+{"question": "How long does a Tern over-the-air software update take?", "expected": "tern_ev_service_manual::software-updates"}
+{"question": "How long is the new car warranty?", "expected": "warranty_policy::new-vehicle-warranty"}
+{"question": "How many years is the high voltage battery covered?", "expected": "warranty_policy::high-voltage-battery-warranty"}
+{"question": "My Tern battery capacity dropped to 75 percent, is that covered?", "expected": "warranty_policy::high-voltage-battery-warranty"}
+{"question": "Does servicing at an independent garage void my warranty?", "expected": "warranty_policy::conditions"}
+{"question": "Are brake pads and wiper blades covered under warranty?", "expected": "warranty_policy::wear-items-not-covered"}
+{"question": "How do I make a warranty claim and how long does approval take?", "expected": "warranty_policy::making-a-claim"}
+{"question": "My car failed just after the warranty expired, can Norvik help?", "expected": "warranty_policy::goodwill"}
+{"question": "When are the spark plugs replaced on the Aster?", "expected": "maintenance_schedule::aster-hybrid-schedule"}
+{"question": "Tern EV air conditioning service interval", "expected": "maintenance_schedule::tern-ev-schedule"}
+{"question": "Can I get a courtesy car when I book a service?", "expected": "maintenance_schedule::service-booking"}

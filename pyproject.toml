@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aftersales-rag"
+version = "0.1.0"
+description = "Automotive after-sales assistant: hybrid RAG, recall lookup, LangGraph routing, MCP server"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "rank-bm25>=0.2.2",
+  "pyyaml>=6.0",
+  "langgraph>=0.2",
+  "fastapi>=0.110",
+  "uvicorn>=0.29",
+  "pydantic>=2.6",
+  "anthropic>=0.40",
+  "mcp>=2.0",
+]
+
+[project.optional-dependencies]
+semantic = ["sentence-transformers>=3.0"]
+ui = ["streamlit>=1.35", "requests>=2.31"]
+dev = ["pytest>=8.0", "httpx>=0.27", "ruff>=0.5"]
+
+[project.scripts]
+aftersales-mcp = "aftersales_rag.mcp_server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+"eval/run_eval.py" = ["E402"]

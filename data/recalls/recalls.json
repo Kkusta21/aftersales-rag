@@ -1,0 +1,42 @@
+[
+  {
+    "campaign_id": "NVK-24-003",
+    "model": "Aster Hybrid",
+    "years": [2022, 2023],
+    "component": "Fuel system",
+    "summary": "The fuel pump relay may fail, causing the engine not to start or to stop while driving in petrol mode.",
+    "remedy": "Dealer replaces the fuel pump relay free of charge. Takes about 1 hour.",
+    "status": "open",
+    "date": "2024-03-12"
+  },
+  {
+    "campaign_id": "NVK-24-011",
+    "model": "Tern EV",
+    "years": [2023, 2024],
+    "component": "Software / charging",
+    "summary": "Charging control software can stop DC fast charging early and show code CHG-07 on some chargers.",
+    "remedy": "Over-the-air update to software version 3.4.2 or later. Dealers can install it if the OTA update fails.",
+    "status": "open",
+    "date": "2024-09-02"
+  },
+  {
+    "campaign_id": "NVK-25-002",
+    "model": "Tern EV",
+    "years": [2024, 2025],
+    "component": "Rear seat belt",
+    "summary": "The rear centre seat belt anchor bolt may not be tightened to specification.",
+    "remedy": "Dealer inspects and re-torques the anchor bolt. Takes about 30 minutes.",
+    "status": "open",
+    "date": "2025-02-18"
+  },
+  {
+    "campaign_id": "NVK-23-007",
+    "model": "Aster Hybrid",
+    "years": [2022],
+    "component": "Airbag label",
+    "summary": "Passenger sun visor airbag warning label printed in the wrong language.",
+    "remedy": "Dealer replaces the sun visor label.",
+    "status": "closed",
+    "date": "2023-06-05"
+  }
+]
